@@ -79,20 +79,21 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 text-[#00B8B8] mt-0.5 flex-shrink-0" />
                 <span className="text-sm text-[#6B7280]">
                   Anand Technologies,<br />
-                  Bengaluru, Karnataka 560001<br />
-                  India
+                  21, 6th Main Road, Magadi Main Rd,<br />
+                  Sunkadakatte, Bengaluru,<br />
+                  Karnataka 560091, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-[#00B8B8] flex-shrink-0" />
-                <a href="tel:+918000000000" className="text-sm text-[#6B7280] hover:text-[#00B8B8] transition-colors">
-                  +91 80 0000 0000
+                <a href="tel:+919901674459" className="text-sm text-[#6B7280] hover:text-[#00B8B8] transition-colors">
+                  +91 99016 74459
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-[#00B8B8] flex-shrink-0" />
-                <a href="mailto:sales@anandtech.in" className="text-sm text-[#6B7280] hover:text-[#00B8B8] transition-colors">
-                  sales@anandtech.in
+                <a href="mailto:smetri@anandtechnologies.co.in" className="text-sm text-[#6B7280] hover:text-[#00B8B8] transition-colors break-all">
+                  smetri@anandtechnologies.co.in
                 </a>
               </li>
             </ul>

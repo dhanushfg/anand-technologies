@@ -10,7 +10,7 @@ const workflowSteps = [
     icon: <FileText className="w-6 h-6" />,
     title: 'Requirement Analysis',
     description:
-      'We start by thoroughly understanding your RF requirement — frequency plan, performance specs, environmental conditions, size constraints, and integration interface. NDA signed on request.',
+      'We start by thoroughly understanding your RF requirement: frequency plan, performance specs, environmental conditions, size constraints, and integration interface. NDA signed on request.',
     deliverable: 'Technical requirements document + feasibility confirmation',
   },
   {
@@ -115,10 +115,10 @@ export default function SolutionsPage() {
               Custom Engineering
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-[#0A0A0A] mb-5">
-              From Requirement to Production — Complete RF Engineering Partnership
+              From Requirement to Production: Complete RF Engineering Partnership
             </h1>
             <p className="text-xl text-[#6B7280] leading-relaxed">
-              When catalog products don't meet your specification, Anand Technologies engineers the solution from first principles. We own the entire development cycle — design, prototype, test, and manufacture.
+              When catalog products don't meet your specification, Anand Technologies engineers the solution from first principles. We own the entire development cycle: design, prototype, test, and manufacture.
             </p>
           </motion.div>
         </div>

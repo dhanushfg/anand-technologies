@@ -8,7 +8,7 @@ const tags = ['Telecom', '5G/6G', 'Defense', 'Automotive', 'Industrial', 'IoT']
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[calc(100vh-80px)] flex flex-col justify-center overflow-hidden bg-white">
+    <section className="relative h-[calc(100vh-64px)] lg:h-[calc(100vh-80px)] flex flex-col justify-center overflow-hidden bg-white">
       {/* Background grid */}
       <div
         className="absolute inset-0 opacity-[0.03]"
@@ -33,14 +33,14 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-20 lg:py-28">
+      <div className="relative w-full max-w-7xl mx-auto px-4 md:px-8 py-8 lg:py-12">
         <div className="max-w-4xl">
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#00B8B8]/30 bg-[#E0F9F9] text-[#00B8B8] text-sm font-medium mb-8"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#00B8B8]/30 bg-[#E0F9F9] text-[#00B8B8] text-sm font-medium mb-5"
           >
             <Zap className="w-3.5 h-3.5" />
             India's Precision RF & Microwave Engineering Partner
@@ -51,7 +51,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-[#0A0A0A] leading-[1.1] tracking-tight mb-6"
+            className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#0A0A0A] leading-[1.1] tracking-tight mb-5"
           >
             Precision RF &{' '}
             <span className="relative">
@@ -66,9 +66,9 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg lg:text-xl text-[#6B7280] leading-relaxed mb-10 max-w-3xl"
+            className="text-base lg:text-lg text-[#6B7280] leading-relaxed mb-7 max-w-3xl"
           >
-            From 5G base station filtering to defense-grade microwave subsystems — Anand Technologies engineers and manufactures high-performance RF components trusted across telecom, defense, automotive, industrial, and IoT applications.
+            From 5G base station filtering to defense-grade microwave subsystems, Anand Technologies engineers and manufactures high-performance RF components trusted across telecom, defense, automotive, industrial, and IoT applications.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -76,7 +76,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-wrap items-center gap-4 mb-12"
+            className="flex flex-wrap items-center gap-4 mb-7"
           >
             <Link
               href="/contact"
@@ -119,7 +119,7 @@ export default function HeroSection() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-[#6B7280]"
+        className="absolute bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-[#6B7280]"
       >
         <span className="text-xs">Scroll to explore</span>
         <motion.div animate={{ y: [0, 6, 0] }} transition={{ repeat: Infinity, duration: 1.5 }}>

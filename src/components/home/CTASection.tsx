@@ -36,7 +36,7 @@ export default function CTASection() {
             Discuss Your RF Requirement Today
           </h2>
           <p className="text-lg text-[#6B7280] leading-relaxed mb-10 max-w-2xl mx-auto">
-            Whether you need a standard catalog product, a modified design, or a fully custom RF solution — our engineering team is ready to evaluate your requirement and provide a technical and commercial response within 24 hours.
+            Whether you need a standard catalog product, a modified design, or a fully custom RF solution, our engineering team is ready to evaluate your requirement and provide a technical and commercial response within 24 hours.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">

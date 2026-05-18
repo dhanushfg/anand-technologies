@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import {
-  ChevronRight, MapPin, Mail, Phone, CheckCircle2, ArrowRight, Building2
+  ChevronRight, MapPin, Mail, Phone, CheckCircle2, ArrowRight, Building2, Clock
 } from 'lucide-react'
 import { productCategories } from '@/lib/data'
 
@@ -243,7 +243,7 @@ function ContactForm() {
       {formState === 'error' && (
         <div className="p-4 bg-red-50 border border-red-200 rounded-xl text-sm text-red-700">
           Something went wrong. Please try again or email us directly at{' '}
-          <a href="mailto:sales@anandtech.in" className="font-semibold underline">sales@anandtech.in</a>.
+          <a href="mailto:smetri@anandtechnologies.co.in" className="font-semibold underline">smetri@anandtechnologies.co.in</a>.
         </div>
       )}
 
@@ -332,30 +332,46 @@ export default function ContactPage() {
                   <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#00B8B8' }} />
                   <address className="not-italic leading-relaxed">
                     Anand Technologies<br />
-                    #42, 3rd Cross, Electronics City<br />
-                    Phase 1, Bengaluru<br />
-                    Karnataka 560100, India
+                    21, 6th Main Road, Magadi Main Rd,<br />
+                    near Ashrya Hospital, Srigandhada Kaval,<br />
+                    Sunkadakatte, Bengaluru,<br />
+                    Karnataka 560091, India
                   </address>
+                </div>
+                <div className="flex items-center gap-3 text-sm text-[#6B7280] mb-2">
+                  <Phone className="w-4 h-4 flex-shrink-0" style={{ color: '#00B8B8' }} />
+                  <a href="tel:+919901674459" className="hover:text-[#00B8B8] transition-colors">
+                    +91 99016 74459
+                  </a>
                 </div>
                 <div className="flex items-center gap-3 text-sm text-[#6B7280] mb-3">
                   <Phone className="w-4 h-4 flex-shrink-0" style={{ color: '#00B8B8' }} />
-                  <a href="tel:+918000000000" className="hover:text-[#00B8B8] transition-colors">
-                    +91 80 0000 0000
-                  </a>
-                </div>
-                <div className="flex items-center gap-3 text-sm text-[#6B7280] mb-2">
-                  <Mail className="w-4 h-4 flex-shrink-0" style={{ color: '#00B8B8' }} />
-                  <a href="mailto:sales@anandtech.in" className="hover:text-[#00B8B8] transition-colors">
-                    sales@anandtech.in
+                  <a href="tel:+918023487088" className="hover:text-[#00B8B8] transition-colors">
+                    080 2348 7088
                   </a>
                 </div>
                 <div className="flex items-center gap-3 text-sm text-[#6B7280]">
                   <Mail className="w-4 h-4 flex-shrink-0" style={{ color: '#00B8B8' }} />
-                  <div>
-                    <div className="text-xs text-[#6B7280] mb-0.5">CEO Direct</div>
-                    <a href="mailto:ceo@anandtech.in" className="hover:text-[#00B8B8] transition-colors">
-                      ceo@anandtech.in
-                    </a>
+                  <a href="mailto:smetri@anandtechnologies.co.in" className="hover:text-[#00B8B8] transition-colors break-all">
+                    smetri@anandtechnologies.co.in
+                  </a>
+                </div>
+              </div>
+
+              {/* Business hours */}
+              <div className="bg-white rounded-2xl p-6 border border-gray-100">
+                <h3 className="text-sm font-bold text-[#0A0A0A] mb-4 flex items-center gap-2">
+                  <Clock className="w-4 h-4" style={{ color: '#00B8B8' }} />
+                  Business Hours
+                </h3>
+                <div className="space-y-2 text-sm">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[#2A2A2A] font-medium">Monday - Saturday</span>
+                    <span className="text-[#6B7280]">9:30 AM - 6:00 PM</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-[#2A2A2A] font-medium">Sunday</span>
+                    <span className="text-[#00B8B8] font-semibold">Closed</span>
                   </div>
                 </div>
               </div>
@@ -382,7 +398,7 @@ export default function ContactPage() {
               {/* Map */}
               <div className="bg-white rounded-2xl overflow-hidden border border-gray-100">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62245.74849854553!2d77.61648!3d12.84484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b01b9e9db53%3A0xefc6c97e6e1c2d3e!2sElectronics+City%2C+Bengaluru!5e0!3m2!1sen!2sin!4v1699000000000"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7608072562516!2d77.50462137409617!3d12.987144887329636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3c466cdc8ccb%3A0x4bd769de44604b80!2sAnand%20Technologies!5e0!3m2!1sen!2sin!4v1779102298017!5m2!1sen!2sin"
                   width="100%"
                   height="200"
                   style={{ border: 0 }}

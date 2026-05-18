@@ -40,7 +40,7 @@ export default function ProductDetailPage({ product, category }: Props) {
         </div>
       </section>
 
-      {/* Product hero — Tab 1: Overview */}
+      {/* Product hero - Tab 1: Overview */}
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="grid lg:grid-cols-3 gap-12">
@@ -220,8 +220,8 @@ export default function ProductDetailPage({ product, category }: Props) {
                     {product.datasheet_url ? (
                       <div className="rounded-2xl border border-[#00B8B8]/30 bg-[#E0F9F9] p-6 flex items-center justify-between gap-4">
                         <div>
-                          <div className="font-semibold text-[#0A0A0A] mb-1">{product.name} — Product Datasheet</div>
-                          <div className="text-sm text-[#6B7280]">PDF — Official Anand Technologies specification sheet</div>
+                          <div className="font-semibold text-[#0A0A0A] mb-1">{product.name} - Product Datasheet</div>
+                          <div className="text-sm text-[#6B7280]">PDF - Official Anand Technologies specification sheet</div>
                         </div>
                         <a
                           href={product.datasheet_url}

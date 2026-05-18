@@ -37,7 +37,7 @@ export default function IndustriesPage() {
               RF Precision Across Every Critical Sector
             </h1>
             <p className="text-xl text-[#6B7280] leading-relaxed">
-              Anand Technologies supports India's most demanding RF applications — from 5G network infrastructure to defense-grade microwave systems and connected vehicle communication.
+              Anand Technologies supports India's most demanding RF applications, from 5G network infrastructure to defense-grade microwave systems and connected vehicle communication.
             </p>
           </motion.div>
         </div>
@@ -158,7 +158,7 @@ export default function IndustriesPage() {
                     <p className="text-sm text-white/70 italic leading-relaxed">
                       "Anand Technologies has been a reliable RF component partner for our infrastructure programs. Their engineering engagement and delivery consistency is exceptional."
                     </p>
-                    <div className="mt-3 text-xs text-white/50">— Procurement Lead, Major Indian Telecom OEM</div>
+                    <div className="mt-3 text-xs text-white/50">- Procurement Lead, Major Indian Telecom OEM</div>
                   </div>
                 </motion.div>
               </div>
@@ -176,7 +176,7 @@ export default function IndustriesPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              Your Industry, Your RF Challenge — We Solve It
+              Your Industry, Your RF Challenge, We Solve It
             </h2>
             <p className="text-lg text-[#6B7280] mb-8">
               Our engineering team has deep vertical expertise. Bring us your application requirement and we'll engineer the right solution.

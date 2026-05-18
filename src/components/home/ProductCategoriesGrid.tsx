@@ -45,7 +45,7 @@ export default function ProductCategoriesGrid() {
             Engineered for Every RF Challenge
           </h2>
           <p className="text-lg text-[#6B7280] max-w-2xl mx-auto">
-            1,700+ products across 17 categories — from MHz-range VHF antennas to X-band waveguide components.
+            1,700+ products across 17 categories, from MHz-range VHF antennas to X-band waveguide components.
           </p>
         </motion.div>
 

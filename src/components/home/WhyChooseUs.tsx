@@ -38,7 +38,7 @@ const reasons = [
     icon: <Handshake className="w-6 h-6" />,
     title: 'Long-Term Partnership',
     description:
-      'We engineer for the lifecycle of your program — from initial design support through production to sustaining engineering and product evolution.',
+      'We engineer for the lifecycle of your program, from initial design support through production to sustaining engineering and product evolution.',
   },
 ]
 
@@ -61,7 +61,7 @@ export default function WhyChooseUs() {
               Engineering Credibility Backed by Decades of Delivery
             </h2>
             <p className="text-lg text-[#6B7280] leading-relaxed mb-8">
-              Our Bengaluru-based team combines 20+ years of RF engineering depth with a manufacturing-first mindset. We don't just design — we build, test, and deliver to specification, every time.
+              Our Bengaluru-based team combines 20+ years of RF engineering depth with a manufacturing-first mindset. We don't just design, we build, test, and deliver to specification, every time.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="flex items-center gap-3 p-4 rounded-xl bg-[#F5F7F8] border border-gray-100">

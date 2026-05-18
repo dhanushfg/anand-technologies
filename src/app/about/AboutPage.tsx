@@ -8,19 +8,19 @@ import {
 
 const milestones = [
   { year: '1989', title: 'Founded in Bengaluru', description: 'Anand Technologies established as a precision RF component design and manufacturing firm, serving India\'s growing telecom and defence sectors.' },
-  { year: '1995', title: 'Defence Program Entry', description: 'First supply of MIL-SPEC RF filters and duplexers to Indian defence integrators — a milestone in credibility and precision manufacturing.' },
+  { year: '1995', title: 'Defence Program Entry', description: 'First supply of MIL-SPEC RF filters and duplexers to Indian defence integrators, a milestone in credibility and precision manufacturing.' },
   { year: '2004', title: 'ISO 9001 Certification', description: 'Achieved ISO 9001 certification, formalizing quality management processes across design, manufacturing, and test operations.' },
   { year: '2010', title: 'MSME Registration', description: 'Registered as Micro, Small & Medium Enterprise, reinforcing our commitment to Indian manufacturing and self-reliance.' },
   { year: '2016', title: '4G LTE Supply Scale-Up', description: 'Scaled production of LTE cavity filters and duplexers to meet India\'s 4G rollout demand, supplying major telecom OEMs and tower companies.' },
   { year: '2019', title: 'Custom RF Solutions Launch', description: 'Launched dedicated custom engineering services for automotive V2X, IoT gateway, and industrial SCADA RF applications.' },
-  { year: '2022', title: '5G NR Product Range', description: 'Introduced 5G NR sub-6 GHz and mmWave product lines — duplexers, filters, and cable assemblies for next-generation base stations.' },
+  { year: '2022', title: '5G NR Product Range', description: 'Introduced 5G NR sub-6 GHz and mmWave product lines including duplexers, filters, and cable assemblies for next-generation base stations.' },
   { year: '2024', title: 'State-of-the-Art Lab', description: 'Expanded RF characterization lab with additional VNA channels, PIM test capability, and environmental testing chambers.' },
 ]
 
 const capabilities = [
   { icon: <FlaskConical className="w-6 h-6" />, title: 'EM Simulation & Design', description: 'ANSYS HFSS, CST Microwave Studio, and AWR-based electromagnetic simulation for filter, antenna, and passive component design.' },
   { icon: <Factory className="w-6 h-6" />, title: 'Precision CNC Machining', description: 'In-house CNC milling and turning for cavity filter bodies, flanges, and enclosures in aluminum, brass, and stainless steel.' },
-  { icon: <Cpu className="w-6 h-6" />, title: 'Surface Mount Assembly', description: 'SMT line for PCB-based RF assemblies — attenuators, splitters, and active RF modules — with IPC-A-610 quality standards.' },
+  { icon: <Cpu className="w-6 h-6" />, title: 'Surface Mount Assembly', description: 'SMT line for PCB-based RF assemblies including attenuators, splitters, and active RF modules, with IPC-A-610 quality standards.' },
   { icon: <Shield className="w-6 h-6" />, title: 'Environmental Testing', description: 'Thermal cycling (-55°C to +125°C), vibration, and humidity testing in-house. Accelerated life testing for defense programs.' },
   { icon: <Award className="w-6 h-6" />, title: 'RF Characterization', description: 'Calibrated VNA (100 kHz – 67 GHz), spectrum analyzers, PIM test (IEC 62037), and power handling measurement systems.' },
   { icon: <Users className="w-6 h-6" />, title: 'Engineering Consultation', description: 'Techno-commercial support from requirement definition through acceptance test. We partner with your program team from day one.' },
@@ -34,12 +34,12 @@ const leadership = [
   },
   {
     name: 'Priya Anand',
-    title: 'Director — Engineering',
+    title: 'Director, Engineering',
     background: 'RF/Microwave Engineering, IISc Bengaluru. Expert in passive component design, filter synthesis, and MIL-SPEC qualification processes.',
   },
   {
     name: 'Suresh Krishnan',
-    title: 'Director — Operations & Quality',
+    title: 'Director, Operations & Quality',
     background: '25+ years in precision manufacturing and quality management. ISO 9001 lead auditor. Deep expertise in RF component production scale-up.',
   },
 ]
@@ -82,7 +82,7 @@ export default function AboutPage() {
 
               <div className="flex items-center gap-2 text-sm text-[#6B7280]">
                 <MapPin className="w-4 h-4 text-[#00B8B8]" />
-                Bengaluru, Karnataka — India's Silicon Valley and aerospace capital
+                Bengaluru, Karnataka, India's Silicon Valley and aerospace capital
               </div>
             </motion.div>
           </div>
@@ -107,10 +107,10 @@ export default function AboutPage() {
                   Anand Technologies was established in 2004 by a team of RF engineers who had spent careers designing microwave systems for India's defense and space programs. Recognizing a gap in locally-sourced, high-quality RF passive components, the founding team set up a design and manufacturing operation in Bengaluru's technology corridor.
                 </p>
                 <p>
-                  From the outset, we invested in the tools and talent to compete on technical merit — not just price. Our first cavity bandpass filters for 2G GSM base stations were designed from first principles, characterized in our own lab, and delivered to an exacting customer specification. That rigor has never wavered.
+                  From the outset, we invested in the tools and talent to compete on technical merit, not just price. Our first cavity bandpass filters for 2G GSM base stations were designed from first principles, characterized in our own lab, and delivered to an exacting customer specification. That rigor has never wavered.
                 </p>
                 <p>
-                  Today, Anand Technologies supports India's leading telecom operators, OEMs, and defense integrators with a portfolio spanning filters, duplexers, diplexers, antennas, cable assemblies, and microwave passives — from 400 MHz through 40 GHz.
+                  Today, Anand Technologies supports India's leading telecom operators, OEMs, and defense integrators with a portfolio spanning filters, duplexers, diplexers, antennas, cable assemblies, and microwave passives from 400 MHz through 40 GHz.
                 </p>
                 <p>
                   Our Bengaluru manufacturing facility houses precision CNC machining, SMT assembly, and a fully equipped RF and environmental test laboratory. Every product that leaves our facility has been characterized to specification and is backed by a warranty and sustaining engineering commitment.
@@ -128,7 +128,7 @@ export default function AboutPage() {
               <div className="bg-white rounded-2xl p-7 border border-gray-100">
                 <h3 className="text-lg font-bold text-[#0A0A0A] mb-4">Our Mission</h3>
                 <p className="text-[#6B7280] leading-relaxed">
-                  To be India's most technically credible RF and microwave engineering partner — delivering components that perform flawlessly under the most demanding operational conditions, supported by an engineering team that is as committed to our customers' success as they are.
+                  To be India's most technically credible RF and microwave engineering partner, delivering components that perform flawlessly under the most demanding operational conditions, supported by an engineering team that is as committed to our customers' success as they are.
                 </p>
               </div>
               <div className="bg-[#00B8B8] rounded-2xl p-7">
@@ -218,7 +218,7 @@ export default function AboutPage() {
           >
             <h2 className="text-3xl sm:text-4xl font-bold text-[#0A0A0A] mb-4">Infrastructure & Capabilities</h2>
             <p className="text-lg text-[#6B7280] max-w-xl mx-auto">
-              Everything under one roof — from EM simulation to final test and delivery.
+              Everything under one roof, from EM simulation to final test and delivery.
             </p>
           </motion.div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
